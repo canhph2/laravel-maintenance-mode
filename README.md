@@ -4,7 +4,7 @@
 ## How to install
 - required `PHP >= 7.2`, `Laravel >= 5.8`
 ```
-composer require congnqnexlesoft/laravel-maintenance-mode
+composer require canhph2/laravel-maintenance-mode
 ```
 
 ## How to configure
@@ -22,11 +22,11 @@ In `app/Http/Kernel.php`, add this `middleware` in `$middleware array`
 - **Except URIs**
 - Require config the line below to your `.env` file
 ```dotenv
-## [BEGIN] congnqnexlesoft/laravel-maintenance-mode, lumen-maintenance-mode, symfony-maintenance-mode ##
+## [BEGIN] canhph2/laravel-maintenance-mode, lumen-maintenance-mode, symfony-maintenance-mode ##
 MAINTENANCE_RESPONSE_FORMAT=json
 #    separate by ,(comma)
 EXCEPT_URIS=URI_1,URI_2
-## [END] congnqnexlesoft/laravel-maintenance-mode, lumen-maintenance-mode, symfony-maintenance-mode ##
+## [END] canhph2/laravel-maintenance-mode, lumen-maintenance-mode, symfony-maintenance-mode ##
 ```
 ### Using View
 - Copy these files to your project (if):
