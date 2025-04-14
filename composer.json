@@ -1,5 +1,5 @@
 {
-  "name": "congnqnexlesoft/laravel-maintenance-mode",
+  "name": "canhph2/laravel-maintenance-mode",
   "type": "library",
   "description": "A custom maintenance mode for Laravel (JSON response support).",
   "keywords": [
